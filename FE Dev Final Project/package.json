@@ -1,0 +1,29 @@
+{
+    "name": "fe-dev-final-project",
+    "version": "1.0.0",
+    "description": "In this Project Students will optimize and test a front-end web application called Study Night, a flashcard tool. Using the skills gained throughout this course, they will create tests to ensure product quality, install and configure necessary project dependencies, and optimize and automate the application tasks.",
+    "license": "MIT",
+    "author": "Mohammad Badawi",
+    "type": "module",
+    "scripts": {
+        "test": "mocha",
+        "gulp": "gulp"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.1",
+        "chai": "^6.2.1",
+        "cypress": "^15.7.1",
+        "eslint": "^9.39.1",
+        "globals": "^16.5.0",
+        "gulp": "^5.0.1",
+        "gulp-cli": "^3.1.0",
+        "gulp-shell": "^0.8.0",
+        "mocha": "^11.7.5",
+        "parcel": "^2.8.3"
+    },
+    "prettier": {
+        "semi": true,
+        "trailingComma": "all",
+        "tabWidth": 4
+    }
+}
